@@ -87,7 +87,7 @@ jobs:
           service_account: ${{ needs.extract-environment-name.outputs.service_account }}
 
       - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+        uses: google-github-actions/setup-gcloud@v0
         with:
           project_id: ${{ needs.extract-environment-name.outputs.project_id }}
 
