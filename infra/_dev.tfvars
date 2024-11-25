@@ -7,7 +7,7 @@ main = {
 
 bucket = {
   "storage1" = {
-    name                     = "steady-petal-436506-m6-testing"
+    name                     = "steady-petal-436506-m6-v1"
     location                 = "EU"
     force_destroy            = true
     public_access_prevention = "enforced"
